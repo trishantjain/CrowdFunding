@@ -1,9 +1,10 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
+import './index.css';
 import {BrowserRouter as Router} from 'react-router-dom'
 import { ChainId, ThirdwebProvider } from "@thirdweb-dev/react";
-import "./styles/globals.css";
+// import "./styles/globals.css";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
