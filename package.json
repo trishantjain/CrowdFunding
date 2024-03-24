@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "svgr": "svgr -d src/Icons/ assets/",
     "preview": "vite preview",
     "deploy": "yarn build && npx thirdweb@latest upload dist"
   },
@@ -13,9 +14,11 @@
     "@thirdweb-dev/sdk": "^4",
     "ethers": "^5",
     "react": "^18.2",
-    "react-dom": "^18.2"
+    "react-dom": "^18.2",
+    "vite-plugin-svgr": "^4.2.0"
   },
   "devDependencies": {
+    "@svgr/cli": "^8.1.0",
     "@vitejs/plugin-react": "^2",
     "autoprefixer": "^10.4.18",
     "postcss": "^8.4.35",
