@@ -10,7 +10,7 @@ import { CreateCampaign, CampaignDetails, Home, Profile } from './pages';
 export default function App() {
   return (
     <div className="relative sm:-8 p-4 bg-[#13131a] min-h-screen flex flex-row">
-      <div className='sm-flex relative'><Sidebar /></div>
+      <div className='sm:flex hidden mr-10 relative'><Sidebar /></div>
 
       <div className="flex-1 max-sm:w-full max:w-[1200px] mx-auto s:pr-5"><Navbar />
 
